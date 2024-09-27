@@ -30,7 +30,8 @@ wine-classifier-api/
  ┣ Notebook:  
  ┣   ┣ wine_model_training.ipynb  # Notebook to train and save the model
  ┣ requirements.txt               # Project dependencies
- ┗ README.md                   # Project documentation
+ ┣ Dockerfile                     # List of application dependencies
+ ┗ README.md                      # Project documentation
  ```
  
 ## Installation
