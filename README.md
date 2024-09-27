@@ -56,8 +56,9 @@ http://127.0.0.1:8001/docs
 ## Health Check:
 
 - GET /api/health
-Returns a message confirming that the API is healthy.
-Example Response:
+- Returns a message confirming that the API is healthy.
+- Example Response:
+
 {
   "status": "I'm healthy"
 }
@@ -66,22 +67,9 @@ Example Response:
 
 - POST /api/predict
 Receives characteristics of the wine and returns the class prediction.
-Request body example:
+- Request body example:
+
 {
-  "alcohol": 13.2,
-  "malic_acid": 2.77,
-  "ash": 2.51,
-  "alcalinity_of_ash": 18.5,
-  "magnesium": 103,
-  "total_phenols": 1.6,
-  "flavanoids": 0.63,
-  "nonflavanoid_phenols": 0.53,
-  "proanthocyanins": 1.8,
-  "color_intensity": 3.0,
-  "hue": 1.1,
-  "od280_od315_of_diluted_wines": 2.87,
-  "proline": 1285
-}{
   "alcohol": 13.2,
   "malic_acid": 2.77,
   "ash": 2.51,
@@ -97,7 +85,8 @@ Request body example:
   "proline": 1285
 }
 
-Example Response:
+- Example Response:
+
 {
   "prediction": 1
 }
